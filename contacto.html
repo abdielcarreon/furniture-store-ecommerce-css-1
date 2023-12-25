@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylsheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="/css/app.css">
+    <title> Contacto </title>
+</head>
+<body>
+
+    <header>
+        <h1> Tienda <span> de Muebles </span> </h1>
+    </header>
+    
+    <div class="container-header">
+        <nav class="nav-nosotros container">
+            <a href="/index.html" > Inicio </a>
+            <a href="/nosotros.html" > Nosotros </a>
+            <a href="/tienda.html" > Tienda </a>
+            <a href="/blog.html" > Blog </a>
+            <a href="galeria.html" > Galer&iacute;a </a>
+            <a href="contacto.html" > Contacto </a>
+        </nav>
+    </div>
+  
+
+    <main class="container">
+        <h2> Contacto </h2>
+        <form class="formulario">
+            <legend class="legend-position font-weight-700">  Tus datos </legend> 
+
+            <fieldset class="fieldset-position text-start">
+                <div class="campo">
+                    <label for="nombre"> Nombre </label>
+                    <input id="nombre" type="text" placeholder="Tu Nombre"> 
+                </div>
+                
+                <div class="campo">
+                    <label for="asunto"> Asunto </label>
+                    <input id="asunto" type="text" placeholder="Tu Asunto"> 
+                </div>
+                
+
+                <div class="campo">
+                    <label for="email"> Email </label>
+                    <input id="email" type="email" placeholder="Tu Email"> 
+                </div>
+                
+
+                <div class="campo">
+                    <label for="telefono"> Tel&eacute;fono </label>
+                    <input id="telefono" type="tel" placeholder="Tu Tel&eacute;fono"> 
+                </div>
+                
+                <div class="campo">
+                    <label for="mensaje"> Mensaje </label>
+                    <textarea id="mensaje" type="text" cols="10" rows="10"> </textarea>
+                </div> 
+            </fieldset>
+
+            <fieldset class="contenido-pais text-start">
+            <legend class="absolute-pais font-weight-700 text-align"> Pa&iacute;s </legend> 
+                <div class="campo">
+                    <label for="pais"> Elige tu Pa&iacute;s </label>
+                    <select id="pais">
+                        <option disabled> --Seleccione-- </option>
+                        <option> M&eacute;xico </option>
+                        <option> Per&uacute; </option>
+                        <option> Colombia </option>
+                        <option> Argentina </option>
+                        <option> España </option>
+                        <option> Chile </option>
+                    </select>
+                </div>
+            </fieldset>
+
+
+            <fieldset class="contenido-info text-start">
+                <legend class="absolute-info font-weight-700 text-align">  M&aacute;s Informaci&oacute;n </legend> 
+                    <div class="campo">
+                        <label for="cliente"> Cliente </label>
+                        <input id="cliente" type="radio" name="tipo">
+                    </div> 
+                    <div class="campo">
+                        <label for="proveedor"> Proveedor </label>
+                        <input id="proveedor" type="radio" name="tipo"> 
+                    </div>
+                    <div class="campo">
+                        <label for="categoria"> Categor&iacute;a de Inter&eacute;s </label>
+                        <input id="categoria" list="categorias"> 
+                        <datalist id="categorias">
+                            <option value="Cocina"> 
+                            <option value="Exterior"> 
+                            <option value="Rec&eacute;mara"> 
+                            <option value="Oficina"> 
+                            <option value="Televisi&oacute;n"> 
+                        </datalist>
+                    </div>
+
+                        
+                    
+                </fieldset>
+
+                    <div class="text-start">
+                        <input class="btn-submit btn" type="button" value="Enviar Formulario">
+                    </div>
+    
+        </form>
+        
+    </main>
+    
+
+    <footer class="footer container">
+        <div>
+           <h3> Categor&iacute;as </h3> 
+           <nav>
+                <a href="#"> Cocina </a>
+                <a href="#"> Oficina </a>
+                <a href="#"> Jard&iacute;n </a>
+                <a href="#"> Cochera </a>
+                <a href="#"> Dormitorios </a>
+           </nav>
+        </div>
+
+        <div>
+            <h3> Sobre Nosotros </h3> 
+            <nav>
+                 <a href="#"> Nuestra Historia </a>
+                 <a href="#"> Misi&oacute;n, Visi&oacute;n, Valores </a>
+                 <a href="#"> Carreras </a>
+                 <a href="#"> Pol&iacute;tica de Privacidad </a>
+                 <a href="#"> T&eacute;rminos del Servicio </a>
+            </nav>
+         </div>
+
+         <div>
+            <h3> Soporte </h3> 
+            <nav>
+                 <a href="#"> Preguntas Frecuentes </a>
+                 <a href="#"> Ayuda en L&iacute;nea </a>
+                 <a href="#"> Confianza y Seguridad </a>
+            </nav>
+         </div>
+    </footer>
+    <p class="container copyright"> Todos los Derechos Reservados&COPY;, TiendaMuebles </p>
+</body>
+</html>
