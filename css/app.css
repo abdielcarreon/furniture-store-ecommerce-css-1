@@ -50,6 +50,7 @@ p {
     transition: background-color ease-out .4s;
     border: none;
     width: 100%;
+    height: auto;
 }
 .btn:hover {
     font-size: 2rem;
